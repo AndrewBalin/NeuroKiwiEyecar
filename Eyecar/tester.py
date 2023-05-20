@@ -42,7 +42,7 @@ while True:
                 print('Зелёный')
             else:
                 print('Красный')
-            cv2.imshow('sign', traffic_light_img)
+            cv2.imshow('traffic light', traffic_light_img)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
